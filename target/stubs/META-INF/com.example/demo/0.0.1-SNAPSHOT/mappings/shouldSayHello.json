@@ -1,0 +1,21 @@
+{
+  "id" : "68244b92-5a91-4e74-b324-fbfa4306c209",
+  "request" : {
+    "url" : "/sayhello/Eduardo",
+    "method" : "GET",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json.*"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"msg\":\"hello Eduardo\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "68244b92-5a91-4e74-b324-fbfa4306c209"
+}

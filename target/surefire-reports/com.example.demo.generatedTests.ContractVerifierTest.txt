@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.generatedTests.ContractVerifierTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.166 s <<< FAILURE! - in com.example.demo.generatedTests.ContractVerifierTest
+validate_shouldSayHello  Time elapsed: 2.538 s  <<< ERROR!
+java.net.ConnectException: Connection refused (Connection refused)
+	at com.example.demo.generatedTests.ContractVerifierTest.validate_shouldSayHello(ContractVerifierTest.java:27)
+
